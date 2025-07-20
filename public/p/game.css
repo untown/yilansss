@@ -1531,53 +1531,54 @@ body {display:block !important;}
       list-style: none;
     }
 
-    /* CÃ¡c mÃ u sáº¯c cho tá»«ng má»¥c */
-    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-right #store-groups li:nth-child(1) {
-      background-color: #FF5733; /* MÃ u Ä‘á» */
-    }
+/* Her öğe için renkler */
+#game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-right #store-groups li:nth-child(1) {
+  background-color: #FF5733; /* Kırmızı renk */
+}
 
-    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-right #store-groups li:nth-child(2) {
-      background-color: #33FF57; /* MÃ u xanh lÃ¡ */
-    }
+#game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-right #store-groups li:nth-child(2) {
+  background-color: #33FF57; /* Yeşil renk */
+}
 
-    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-right #store-groups li:nth-child(3) {
-      background-color: #3357FF; /* MÃ u xanh dÆ°Æ¡ng */
-    }
+#game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-right #store-groups li:nth-child(3) {
+  background-color: #3357FF; /* Mavi renk */
+}
 
-    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-right #store-groups li:nth-child(4) {
-      background-color: #FF33A1; /* MÃ u há»“ng */
-    }
+#game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-right #store-groups li:nth-child(4) {
+  background-color: #FF33A1; /* Pembe renk */
+}
 
-    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-right #store-groups li:nth-child(5) {
-      background-color: #FFC300; /* MÃ u vÃ ng */
-    }
+#game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-right #store-groups li:nth-child(5) {
+  background-color: #FFC300; /* Sarı renk */
+}
 
-    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-right #store-groups li:nth-child(6) {
-      background-color: #8E44AD; /* MÃ u tÃ­m */
-    }
+#game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-right #store-groups li:nth-child(6) {
+  background-color: #8E44AD; /* Mor renk */
+}
 
-    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-right #store-groups li:nth-child(7) {
-      background-color: #1F8A70; /* MÃ u xanh ngá»c */
-    }
+#game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-right #store-groups li:nth-child(7) {
+  background-color: #1F8A70; /* Turkuaz renk */
+}
 
-    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-right #store-groups li:nth-child(8) {
-      background-color: #F39C12; /* MÃ u cam */
-    }
+#game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-right #store-groups li:nth-child(8) {
+  background-color: #F39C12; /* Turuncu renk */
+}
 
-    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-right #store-groups li:nth-child(9) {
-      background-color: #D35400; /* MÃ u nÃ¢u */
-    }
+#game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-right #store-groups li:nth-child(9) {
+  background-color: #D35400; /* Kahverengi renk */
+}
 
-    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-right #store-groups li:nth-child(10) {
-      background-color: #2980B9; /* MÃ u xanh biá»ƒn */
-    }
+#game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-right #store-groups li:nth-child(10) {
+  background-color: #2980B9; /* Deniz mavisi renk */
+}
 
-    /* Hiá»‡u á»©ng khi hover */
-    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-right #store-groups li:hover {
-      transform: scale(1.1); /* PhÃ³ng to khi hover */
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* ThÃªm bÃ³ng Ä‘á»• */
-      background-color: #1e88e5; /* Thay Ä‘á»•i mÃ u ná»n khi hover */
-    }
+/* Hover efekti */
+#game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-right #store-groups li:hover {
+  transform: scale(1.1); /* Hover sırasında büyüt */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Gölge ekle */
+  background-color: #1e88e5; /* Hover sırasında arka plan rengini değiştir */
+}
+
 
 
 
@@ -3239,25 +3240,25 @@ body {display:block !important;}
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 15px; /* Khoáº£ng cÃ¡ch giá»¯a cÃ¡c biá»ƒu tÆ°á»£ng */
-    padding: 20px; /* Padding Ä‘á»ƒ cÃ¡c biá»ƒu tÆ°á»£ng khÃ´ng cháº¡m viá»n */
+    gap: 15px; /* İkonlar arasındaki boşluk */
+    padding: 20px; /* İkonların kenarlara temas etmemesi için boşluk */
 }
 
 .cursor {
-    width: 32px; /* Äáº£m báº£o cÃ¡c biá»ƒu tÆ°á»£ng cÃ³ kÃ­ch thÆ°á»›c Ä‘á»“ng Ä‘á»u */
-    height: 32px; /* Äáº£m báº£o cÃ¡c biá»ƒu tÆ°á»£ng cÃ³ kÃ­ch thÆ°á»›c Ä‘á»“ng Ä‘á»u */
-    object-fit: cover; /* Cáº¯t hÃ¬nh áº£nh Ä‘á»ƒ phÃ¹ há»£p vá»›i kÃ­ch thÆ°á»›c */
-    transition: transform 0.3s ease-in-out; /* Hiá»‡u á»©ng khi hover */
+    width: 32px; /* İkonların aynı boyutta olmasını sağla */
+    height: 32px; /* İkonların aynı boyutta olmasını sağla */
+    object-fit: cover; /* Görüntüyü boyuta göre kes */
+    transition: transform 0.3s ease-in-out; /* Hover (üzerine gelme) efekti için geçiş */
 }
 
 .cursor:hover {
-    transform: scale(1.2); /* PhÃ³ng to biá»ƒu tÆ°á»£ng khi hover */
+    transform: scale(1.2); /* Üzerine gelince ikonları büyüt */
 }
 
 #default-cursor-btn {
     
-    clear: both; /* Äáº£m báº£o pháº§n tá»­ nÃ y xuá»‘ng dÃ²ng dÆ°á»›i */
-    text-align: center; /* CÄƒn giá»¯a ná»™i dung bÃªn trong */
+    clear: both; /* Bu elemanın altındaki tüm öğelerin alt satıra geçmesini sağlar */
+    text-align: center; /* İçeriği yatayda ortalar */
 }
 
 #default-cursor-btn img {
@@ -3266,7 +3267,7 @@ body {display:block !important;}
 }
 
 #default-cursor-btn img:hover {
-    transform: scale(1.1); /* TÄƒng kÃ­ch thÆ°á»›c cá»§a biá»ƒu tÆ°á»£ng khi hover */
+    transform: scale(1.1); /* Üzerine gelindiğinde simgenin boyutunu büyüt */
 }
 
 
@@ -3280,16 +3281,16 @@ body {display:block !important;}
 }
 
 .background {
-    width: 100px; /* Chiá»u rá»™ng cá»§a áº£nh báº±ng chiá»u rá»™ng cá»§a Ã´ grid */
-    height: auto; /* Giá»¯ tá»· lá»‡ áº£nh ban Ä‘áº§u */
-    border-radius: 8px; /* Viá»n bo trÃ²n cho áº£nh */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Äá»• bÃ³ng nháº¹ cho áº£nh */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hiá»‡u á»©ng chuyá»ƒn Ä‘á»™ng */
+    width: 100px; /* Görüntünün genişliği, grid hücresi genişliğine eşit */
+    height: auto; /* Orijinal görüntü oranını korur */
+    border-radius: 8px; /* Görüntüye yuvarlatılmış kenar verir */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Görüntüye hafif gölge efekti ekler */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hareket ve gölge geçiş efekti sağlar */
 }
 
 .background:hover {
-    transform: scale(1.05); /* PhÃ³ng to áº£nh khi hover */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Äá»• bÃ³ng máº¡nh hÆ¡n khi hover */
+    transform: scale(1.05); /* Üzerine gelindiğinde resmi büyüt */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Üzerine gelindiğinde gölgeyi daha belirgin yap */
 }
 
 .selectSala {
@@ -3301,7 +3302,7 @@ body {display:block !important;}
   color: #fff;
   justify-content: space-evenly;
   text-shadow: 0 0 0 #2f882e, 0 0 0.5em #ff0000, 0 0 0.4em #ff0000;
-  transition: all 0.3s ease-in-out; /* ThÃªm transition cho cÃ¡c thay Ä‘á»•i mÆ°á»£t mÃ  */
+  transition: all 0.3s ease-in-out; /* Değişikliklere yumuşak geçiş efekti ekle */
 }
 
 .selectSala:hover {
@@ -3314,7 +3315,7 @@ body {display:block !important;}
   left: 2px;
   position: relative;
   justify-content: center;
-  transform: scale(1.05); /* ThÃªm hiá»‡u á»©ng phÃ³ng to nháº¹ */
+  transform: scale(1.05); /* Hafif büyütme efekti ekle */
 
 }
 
@@ -3442,13 +3443,13 @@ top: 180px;
 
     
     .key:hover {
-  background-color: #45a049; /* MÃ u ná»n thay Ä‘á»•i khi hover */
-  transform: translateY(-5px); /* NÃ¢ng lÃªn khi hover */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* BÃ³ng Ä‘á»• Ä‘áº­m hÆ¡n khi hover */
+  background-color: #45a049; /* Üzerine gelindiğinde arka plan rengini değiştir */
+  transform: translateY(-5px); /* Üzerine gelindiğinde yükselt */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Üzerine gelindiğinde gölgeyi koyulaştır */
 }
 
 .key:active {
-  transform: translateY(2px); /* Ã‰p xuá»‘ng khi nháº¥n */
+  transform: translateY(2px); /* Basıldığında aşağı it */
 }
 #key-container {
 
@@ -3502,12 +3503,12 @@ top: 180px;
             width: 80%;
             height: 10px;
             border-radius: 5px;
-            background: linear-gradient(to right, #4caf50, #2196f3); /* MÃ u xanh gradient */
+            background: linear-gradient(to right, #4caf50, #2196f3); /* Yeşil gradyan renk */
             outline: none;
             transition: background 0.3s ease;
         }
 
-        /* CÃ i Ä‘áº·t cho pháº§n "thumb" cá»§a thanh trÆ°á»£t (Ä‘áº§u kÃ©o) */
+        /* Kaydırma çubuğunun "thumb" (sürükleme başlığı) kısmı için ayarlar */
         #zoom-slider::-webkit-slider-thumb {
             -webkit-appearance: none;
             appearance: none;
@@ -3523,7 +3524,7 @@ top: 180px;
 
         /* Khi hover qua thanh trÆ°á»£t */
         #zoom-slider:hover {
-            background: linear-gradient(to right, #388e3c, #1976d2); /* Thay Ä‘á»•i mÃ u gradient khi hover */
+            background: linear-gradient(to right, #388e3c, #1976d2); /* Üzerine gelindiğinde (hover) gradyan rengini değiştir */
         }
 
         /* Khi hover qua thumb */
@@ -3532,7 +3533,7 @@ top: 180px;
             transform: scale(1.1);
         }
 
-        /* CÃ i Ä‘áº·t cho thanh trÆ°á»£t trÃªn trÃ¬nh duyá»‡t Firefox */
+        /* Firefox tarayıcısındaki kaydırma çubuğu için ayarlar */
         #zoom-slider::-moz-range-thumb {
             width: 20px;
             height: 20px;
@@ -3590,7 +3591,7 @@ text-transform: capitalize;
 text-decoration: none;
 font-weight: bold;
 }
-
+# Bayraklar Sunucu Bayrak
 .flag {
     display: block;
     margin: 6px 0;
@@ -3767,16 +3768,6 @@ width: 40px;
     object-fit: cover;
 }
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
 #svhiep {
     display: flex;
     justify-content: space-between; 
@@ -4173,8 +4164,8 @@ button:hover{
 .settings-row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* CÄƒn giá»¯a cÃ¡c pháº§n tá»­ */
-    gap: 20px; /* Khoáº£ng cÃ¡ch giá»¯a cÃ¡c pháº§n tá»­ */
+    justify-content: center; /* Öğeleri ortalar */
+    gap: 20px; /* Öğeler arasındaki boşluğu ayarlar */
     height: 40px;
 }
 
@@ -4185,27 +4176,27 @@ button:hover{
     text-align: left;
     display: flex;
     box-shadow: 0 2px 4px rgb(229 213 129);
-    justify-content: space-between; /* Äá»ƒ "Eat Fast" bÃªn trÃ¡i vÃ  checkbox, label bÃªn pháº£i */
+    justify-content: space-between; /* "Eat Fast" sola, checkbox ve etiketi sağa yerleştirir */
 }
 
 .settings-switchZoom {
-    margin-left: auto; /* Äáº©y checkbox sang bÃªn pháº£i */
-    width: 20px; /* TÄƒng chiá»u rá»™ng cá»§a checkbox */
-    height: 20px; /* TÄƒng chiá»u cao cá»§a checkbox */
-    transform: scale(1.5); /* PhÃ³ng to checkbox náº¿u cáº§n */
+    margin-left: auto; /* Onay kutusunu (checkbox) sağa hizalar */
+    width: 20px; /* Onay kutusunun genişliğini artırır */
+    height: 20px; /* Onay kutusunun yüksekliğini artırır */
+    transform: scale(1.5); /* Gerekirse onay kutusunu büyütür */
 }
 
 .settings-switchZoom + label {
-    font-size: 15px; /* TÄƒng kÃ­ch thÆ°á»›c cá»§a label */
+    font-size: 15px; /* Etiketin (label) yazı boyutunu artırır */
 }
 
 
 .settings-switchZoom {
-    margin-left: auto; /* Äáº©y pháº§n tá»­ sang bÃªn pháº£i */
+    margin-left: auto; /* Öğeyi sağ tarafa hizalar */
 }
 .settings-lineZoom input,
 .settings-lineZoom label {
-    margin-left: 10px; /* Táº¡o khoáº£ng cÃ¡ch giá»¯a label vÃ  input */
+    margin-left: 10px; /* Etiket (label) ile giriş alanı (input) arasına boşluk bırakır */
 }
 
 
@@ -4311,12 +4302,12 @@ input[type="color"]::-moz-color-swatch {
 }
 
 #titleSetings {
-  font-size: 1.5em; /* Aumenta el tamaÃƒÂ±o del texto */
-  padding: 8px 12px; /* Aumenta el espacio interior */
-  border-radius: 8px; /* Aumenta el radio del borde para hacerlo mÃƒÂ¡s suave */
-  text-align: center; /* Centra el texto horizontalmente */
-  font-weight: bold; /* Hace que el texto sea mÃƒÂ¡s fuerte */
-  color: #fff; /* Cambia el color del texto a blanco */
+  font-size: 1.5em; /* Yazı boyutunu büyütür */
+  padding: 8px 12px; /* İç boşluğu artırır */
+  border-radius: 8px; /* Kenar yuvarlaklığını artırarak daha yumuşak görünmesini sağlar */
+  text-align: center; /* Metni yatayda ortalar */
+  font-weight: bold; /* Metni kalın yapar */
+  color: #fff; /* Metin rengini beyaz yapar */
 }
 
 
@@ -4372,7 +4363,7 @@ input[type="color"]::-moz-color-swatch {
 }
 
 
-
+# level foto 
 #mm-player-level{
   background: url(https://i.imgur.com/tCsCXZt.png) !important;
   background-size: 80px !important;
@@ -4443,6 +4434,5 @@ input[type="color"]::-moz-color-swatch {
 .copy-button:hover {
   background: #45a049;
 }
-
 
 
